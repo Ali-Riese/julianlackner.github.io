@@ -121,7 +121,7 @@ width:50%;
 
 #sm2{
 
-color: #13376F;
+color: c;
 font-size: 44px;
 
 }
@@ -130,5 +130,40 @@ font-size: 44px;
 
   color: #13376F;
   font-size: 33px;
+
+}
+#pic2{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+
+}
+#pic3{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+
+}
+#pic4{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+
+}
+#pic5{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+
+}
+#pic6{
+
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
 
 }
