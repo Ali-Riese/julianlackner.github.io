@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./stylesite.css">
     <script src="./function.js" charset="utf-8"></script>
     <title>Julian Lackner</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
   <body>
@@ -21,17 +21,17 @@
 
       <center>
       <button class="tablinks" onclick="openCity(event, 'socialmedia')">Social Media</button>
-      <button class="tablinks" onclick="openCity(event, 'contact')">Contact</button>
-      <button class="tablinks" onclick="openCity(event, 'aboutme')">About me</button>
-      <button class="tablinks" onclick="openCity(event, 'gallery')">Gallery</button>
+      <button class="tablinks" onclick="openCity(event, 'contact')">Kontakt</button>
+      <button class="tablinks" onclick="openCity(event, 'aboutme')">Über mich</button>
+      <button class="tablinks" onclick="openCity(event, 'gallery')">Bildergallerie</button>
 
 
     </div>
 
         <center>
               <div id="socialmedia" class="tabcontent">
-              <h1 id="sm2">Social-media</h3>
-              <p id ="sm3">Find me on Instagram: <b>julianlackner.eu</b> and on Facebook: <b>Julian Lackner</b></p>
+              <h1 id="sm2">Social-media-Links</h3>
+
               <a  href="https://www.instagram.com/julianlackner.eu/"><img id="instagram" src="./Images/Insta-profile.jpg" alt="Insta-code"></a>
               <a href="https://www.facebook.com/people/Julian-Lackner/100014502969373/"><img id="facebook" src="./Images/facebook.jpg" alt="Facebook-Link"></a>
 
@@ -42,8 +42,8 @@
 
       <div id="contact" class="tabcontent">
 
-              <h3>Contact</h3>
-              <p>Mail: ju.lackner@gmx.net</p>
+              <h3>Kontakt</h3>
+              <p></p>
 
       </div>
 
@@ -57,16 +57,108 @@
 
 
       <div id="gallery" class="tabcontent">
-<center>
-              <h3>Pictures</h3>
-              <p>All pictures are taken with my Iphone 12</p>
-              <img id="pic2" src="./Images/pic2.jpg" alt="2">
-              <img id="pic3" src="./Images/pic3.jpg" alt="3">
-              <img id="pic4" src="./Images/pic4.jpg" alt="4">
-              <img id="pic5" src="./Images/pic5.jpg" alt="5">
-              <img id="pic6" src="./Images/pic6.jpg" alt="6">
-<center>
-      </div>
+
+
+  <div style="text-align:center">
+  <h2>Bildergallerie</h2>
+  <p>Alle Bilder stammen von meiner iPhone 12 Kamera</p>
+</div>
+
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:60%">
+  <div id="imgtext"></div>
+</div>
+
+
+
+<div class="row">
+
+
+<div class="column">
+  <img src="./images/bild1.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild24.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild25.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild26.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild27.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild28.jpg" alt="Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild29.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild16.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild19.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild20.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild21.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild22.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild23.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild14.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild15.jpg" alt="Gipfelkreuz Brunnkogel" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild17.jpg" alt="Gipfelkreuz Brunnkogel" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild18.jpg" alt="Gipfelkreuz Brunnkogel" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild30.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild12.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild9.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild8.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild2.jpg" alt="Gleinkersee-Oberösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild32.jpg" alt="Gleinkersee-Oberösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild4.jpg" alt="Wanderung zum Gleinkersee-Oberösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild7.jpg" alt="Donaubrücke-Niderösterreich" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild13.jpg" alt="Blumen in der Wachau" style="width:100%" onclick="myFunction(this);">
+</div>
+<div class="column">
+  <img src="./images/bild31.jpg" alt="Katze" style="width:100%" onclick="myFunction(this);">
+</div>
+
+
 
 </body>
 </html>
