@@ -1,7 +1,7 @@
 
 #ueberschrift{
 
-    color: #4353B3;
+    color: #13376F;
     font-size: 88px;
     font-family:Comic Sans MS;
     text-align: center;
@@ -9,16 +9,23 @@
   }
 
 
-#link{
+#instagram{
 
-  margin-left: auto;
-  margin-right: auto;
-  width:50%;
-  text-align:center;
+  height:auto;
+  width:25%;
+  text-align:middle;
   display:block;
 
   }
+#facebook{
 
+  height:auto;
+  width:25%;
+  text-align:middle-left;
+  display:block;
+
+
+}
 
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
@@ -73,7 +80,7 @@
 
 #socialmedia{
 
-color: #4353B3;
+color: #13376F;
 font-size: 33px;
 font-family:Comic Sans MS;
 
@@ -81,7 +88,7 @@ font-family:Comic Sans MS;
 
 #contact{
 
-color: #4353B3;
+color: #13376F;
 font-size: 33px;
 font-family:Comic Sans MS;
 
@@ -89,7 +96,7 @@ font-family:Comic Sans MS;
 
 #aboutme{
 
-color: #4353B3;
+color: #13376F;
 font-size: 33px;
 font-family:Comic Sans MS;
 
@@ -97,22 +104,31 @@ font-family:Comic Sans MS;
 
 #gallery{
 
-color: #4353B3;
+color: #13376F;
 font-size: 33px;
 font-family:Comic Sans MS;
 
 }
 
+#julianbild{
+
+
+margin-left: auto;
+margin-right: auto;
+width:50%;
+
+}
+
 #sm2{
 
-color: green;
+color: #13376F;
 font-size: 44px;
 
 }
 
 #sm3{
 
-  color: orange;
+  color: #13376F;
   font-size: 33px;
 
 }
