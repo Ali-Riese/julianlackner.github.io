@@ -33,3 +33,13 @@ function myFunction(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 }
+function checkPswd() {
+    var confirmPassword = "JL3105";
+    var password = document.getElementById("pswd").value;
+    if (password == confirmPassword) {
+         window.location="privategalleryindex.html";
+    }
+    else{
+        alert("Passwords do not match.");
+    }
+}

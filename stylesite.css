@@ -118,13 +118,14 @@ font-family:Comic Sans MS;
 
 }
 
-#gallery{
+#calender{
 
 color: #13376F;
 font-size: 33px;
 font-family:Comic Sans MS;
 
 }
+
 
 #julianbild{
 
@@ -181,9 +182,23 @@ font-size: 44px;
   margin-left: auto;
   margin-right: auto;
   width:50%;
+}
 
+#gallery{
 
+  color: #13376F;
+  font-size: 33px;
+  font-family:Comic Sans MS;
 
+  }
+
+  #am{
+
+    color: #13376F;
+    font-size: 33px;
+    font-family:Comic Sans MS;
+
+    }
 
 
 }
@@ -243,4 +258,11 @@ body {
   color: white;
   font-size: 35px;
   cursor: pointer;
+}
+#gallerieueberschrift{
+
+  color: #13376F;
+  font-size: 33px;
+  font-family:Comic Sans MS;
+
 }
