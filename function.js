@@ -34,7 +34,7 @@ function myFunction(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 function checkPswd() {
-    var confirmPassword = "JL3105";
+    var confirmPassword = "Julian";
     var password = document.getElementById("pswd").value;
     if (password == confirmPassword) {
          window.location="privategalleryindex.html";
