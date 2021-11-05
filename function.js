@@ -43,3 +43,23 @@ function checkPswd() {
         alert("Passwords do not match.");
     }
 }
+function checkPswd() {
+    var confirmPassword = "Julian";
+    var password = document.getElementById("pswd2").value;
+    if (password == confirmPassword) {
+         window.location="privategallery1index.html";
+    }
+    else{
+        alert("Passwords do not match.");
+    }
+}
+function checkPswd() {
+    var confirmPassword = "Julian";
+    var password = document.getElementById("pswd3").value;
+    if (password == confirmPassword) {
+         window.location="privategallery2index.html";
+    }
+    else{
+        alert("Passwords do not match.");
+    }
+}

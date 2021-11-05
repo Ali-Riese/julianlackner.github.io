@@ -12,23 +12,23 @@
 
   <h1 id = "gallerieueberschrift" >Hier nun die etwas persönlicheren Fotos</h1>
 
-  <div class="container">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <img id="expandedImg" style="width:60%">
-  <div id="imgtext"></div>
 
-        </div>
-
-  <div class="row">
-
-<div class="column">
-  <img src="./images/bild1.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-</div>
-<div class="column">
-  <img src="./images/bild24.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-</div>
-
-
+  <form>
+      <label for="pswd2">Bilder vom Ausflug zum Hochleckenhaus: </label>
+      <input type="password" id="pswd2">
+      <input type="button" value="Submit" onclick="checkPswd();" />
+  </form>
+  <br>
+  <hr>
+  <br>
+  <form>
+      <label for="pswd2">Bilder vom Ausflug nach Wien: </label>
+      <input type="password" id="pswd3">
+      <input type="button" value="Submit" onclick="checkPswd();" />
+  </form>
+  <br>
+  <hr>
+  <br>
 </div>
 
   </div>
