@@ -33,33 +33,16 @@ function myFunction(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 }
-function checkPswd() {
-    var confirmPassword = "Julian";
-    var password = document.getElementById("pswd").value;
-    if (password == confirmPassword) {
-         window.location="privategalleryindex.html";
+
+
+
+      function checkPswd(id,location) {
+      var confirmPassword = "Julian";
+      var password = document.getElementById(id).value;
+      if (password == confirmPassword) {
+           window.location=location;
+      }
+      else{
+          alert("Passwords do not match.");
+      }
     }
-    else{
-        alert("Passwords do not match.");
-    }
-}
-function checkPswd() {
-    var confirmPassword = "Julian";
-    var password = document.getElementById("pswd2").value;
-    if (password == confirmPassword) {
-         window.location="privategallery1index.html";
-    }
-    else{
-        alert("Passwords do not match.");
-    }
-}
-function checkPswd() {
-    var confirmPassword = "Julian";
-    var password = document.getElementById("pswd3").value;
-    if (password == confirmPassword) {
-         window.location="privategallery2index.html";
-    }
-    else{
-        alert("Passwords do not match.");
-    }
-}
