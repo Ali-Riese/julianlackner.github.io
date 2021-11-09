@@ -37,7 +37,7 @@ function myFunction(imgs) {
 
 
       function checkPswd(id,location) {
-      var confirmPassword = "Julian";
+      var confirmPassword = "julian";
       var password = document.getElementById(id).value;
       if (password == confirmPassword) {
            window.location=location;
