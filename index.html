@@ -2,7 +2,8 @@
 <html lang="de" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./stylesite.css">
+    <link rel="stylesheet" href="style.css" media="only  screen and (min-aspect-ratio: 1/1)">
+  <link rel="stylesheet" href="mobile.css" media="only  screen and (max-aspect-ratio: 1/1)">
     <script src="./function.js" charset="utf-8"></script>
     <title>Julian Lackner</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,169 +13,46 @@
     <body>
 
 
+<!--index Ueberschrift START*/-->
 
-      <br><br><br><br><br>
-
-      <h1 id="ueberschrift" >Juulian Lackner</h1>
-
-
-      <div class="tab">
-
-      <center>
-      <button class="tablinks" onclick="openCity(event, 'socialmedia')">Social Media</button>
-      <button class="tablinks" onclick="openCity(event, 'gallery')">Gallerie</button>
-      <button class="tablinks" onclick="openCity(event, 'aboutme')">Über mich</button>
-      <button class="tablinks" onclick="openCity(event, '3dobjects')">3D-Objekte</button>
-
-
-      </div>
-
-      <center>
-
-        <div id="socialmedia" class="tabcontent">
-        <h1 id="sm2">Social-media-Links</h1>
-        <a href="https://www.instagram.com/julianlackner.eu/"><img id="instagram" src="./images/Insta-profile.jpg" alt="Insta-code"></a>
-        <a href="https://www.facebook.com/people/Julian-Lackner/100014502969373/"><img id="facebook" src="./images/facebook.jpg" alt="Facebook-Link"></a>
-
-      <center>
-
-      </div>
-
-
-      <div id="gallery" class="tabcontent">
-
-              <h3>Zur privaten-Gallerie:</h3>
-              <p></p>
-
-              <form>
-                  <label for="pswd">gib dein Passwort ein: </label>
-                  <input type="password" id="pswd">
-                  <input type="button" value="Submit" onclick="checkPswd('pswd','pg.html');" />
-              </form>
-
-              <h3>öffentliche-Gallerie:</h3>
-
-                  <div class="container">
-                  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-                  <img id="expandedImg" style="width:60%">
-                  <div id="imgtext"></div>
-
-          </div>
+          <h1 id="ueberschrift" >Julian Lackner</h1>
+          <br><br><br><br><br>
+<!--index Ueberschrift ENDE*/-->
 
 
 
-                <div class="row">
-
-              <div class="column">
-                <img src="./images/bild1.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild24.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild25.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild26.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild27.jpg" alt="Sonnenuntergang Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild28.jpg" alt="Hochleckenhaus 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild29.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild16.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild19.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild20.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild21.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild22.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild23.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild14.jpg" alt="Wanderung Hockleckenhaus/Brunnkogel 11.09.2021" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild15.jpg" alt="Gipfelkreuz Brunnkogel" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild17.jpg" alt="Gipfelkreuz Brunnkogel" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild18.jpg" alt="Gipfelkreuz Brunnkogel" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild30.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild12.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild9.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild8.jpg" alt="Wachau-Niederösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild2.jpg" alt="Gleinkersee-Oberösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild32.jpg" alt="Gleinkersee-Oberösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild4.jpg" alt="Wanderung zum Gleinkersee-Oberösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild7.jpg" alt="Donaubrücke-Niderösterreich" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild13.jpg" alt="Blumen in der Wachau" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./images/bild31.jpg" alt="Katze" style="width:100%" onclick="myFunction(this);">
-              </div>
-
-      </div>
-
-    </div>
-
-    <center>
-
-      <div id="aboutme" class="tabcontent">
-
-      <h1>Über mich:</h1>
-      <p>Hi I'm Julian and i'm a Pulp-mill operator.</p>
-      <img id="julianbild"src="./images/pic1.jpg" alt="Bild Julian">
-
-    <center>
-
-    </div>
-
-    <center>
-
-      <div id="3dobjects" class="tabcontent">
-
-      <h1>Hier findest du selbst erstellte 3D-Objekte welche ich dir zum Download freistelle:</h1>
-
-
-    <center>
 
 
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
