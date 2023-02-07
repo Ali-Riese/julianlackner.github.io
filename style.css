@@ -22,46 +22,62 @@ a{
 }
 
 #Gastein{
-  background-image: url(./image/48284-Bad-Gastein.jpg);
-  background-size: 36vw;
+  background-image: url(./image/gastein1.jfif);
+background-size:22vw;
 }
 #Prag{
-  background-image: url();
+  background-image: url(./image/prag1.jpeg);
+  background-size: 36vw;
 }
 #Wachau{
-  background-image: url();
+  background-image: url(./image/wachau1.jpeg);
+  background-size: 36vw;
 }
 #Lyon{
-  background-image: url();
+  background-image: url(./image/lyon1.jpeg);
+    background-size: 36vw;
 }
 #Madrid{
-  background-image: url();
+  background-image: url(./image/madrid1.jpeg);
+  background-size: 36vw;
 }
 #LosAngeles{
-  background-image: url();
+  background-image: url(./image/losangeles1.jpg);
+  background-size: 32vw;
 }
 #Barcelona{
-  background-image: url();
+  background-image: url(./image/barcelona1.jpeg);
+  background-size: 28vw;
 }
 #London{
-  background-image: url();
+  background-image: url(./image/london1.jpg);
+  background-size: 42vw;
 }
-#Germany{
-  background-image: url();
+#Berlin{
+  background-image: url(./image/berlin1.jpg);
+    background-size:44vw;
 }
 #Pacific-coast{
-  background-image: url();
+  background-image: url(./image/pacific1.jpeg);
+    background-size:34vw;
 }
-#USA{
-  background-image: url();
+#Warnemuende{
+  background-image: url(./image/warnemuende1.jpg);
+  background-size:34vw;
 }
 #SanFrancisco{
-  background-image: url(./image/sanfrancisco.jpeg);
+  background-image: url(./image/sanfrancisco1.jpeg);
   background-size: 36vw;
 }
 #NewYork{
-background-image: url();
+background-image: url(./image/nyc1.jpeg);
+  background-size: 36vw;
 }
+#Schwerin{
+background-image: url(./image/schwerin1.jpg);
+  background-size: 44vw;
+}
+
 #start{
   background-color: #27408b;
   background: radial-gradient(circle at bottom right, #fff 20%,  #27408b 94%);
