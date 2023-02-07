@@ -1,45 +1,81 @@
-/*Style Überschrift START*/
-
-#ueberschrift{
-
-    color: #3269a8;
-    font-size: 40px;
-    font-family:Arial;
+body{
+    font-size: 2vw;
+}
+a{
+    color: white;
+    text-decoration: none;
     text-align: center;
+}
 
-  }
-  /* Style the tab */
-  .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
+.fächerListe{
 
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  }
+  width: 20vw;
+  height: 20vw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  margin: 5vw;
 
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
+}
 
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
+#Gastein{
+  background-image: url(./image/48284-Bad-Gastein.jpg);
+  background-size: 36vw;
+}
+#Prag{
+  background-image: url();
+}
+#Wachau{
+  background-image: url();
+}
+#Lyon{
+  background-image: url();
+}
+#Madrid{
+  background-image: url();
+}
+#LosAngeles{
+  background-image: url();
+}
+#Barcelona{
+  background-image: url();
+}
+#London{
+  background-image: url();
+}
+#Germany{
+  background-image: url();
+}
+#Pacific-coast{
+  background-image: url();
+}
+#USA{
+  background-image: url();
+}
+#SanFrancisco{
+  background-image: url(./image/sanfrancisco.jpeg);
+  background-size: 36vw;
+}
+#NewYork{
+background-image: url();
+}
+#start{
+  background-color: #27408b;
+  background: radial-gradient(circle at bottom right, #fff 20%,  #27408b 94%);
+}
 
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
+.Fotos{
+  margin: 0.5vw;
+  width: 30vw;
+  height: 20vw;
+}
+.Unterseiten{
+
+  background-repeat: no-repeat;
+  background-color: #9790A4;
+  background: radial-gradient(circle at bottom left, #9790A4 20%, #fff 104%);
+
+}
