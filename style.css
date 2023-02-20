@@ -21,6 +21,11 @@ a{
 
 }
 
+.fächerFlex2{
+  display: flex;
+  justify-content: center;
+}
+
 #Gastein{
   background-image: url(./image/gastein1.jpg);
 background-size:22vw;
