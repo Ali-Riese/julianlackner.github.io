@@ -22,23 +22,23 @@ a{
 }
 
 #Gastein{
-  background-image: url(./image/gastein1.jfif);
+  background-image: url(./image/gastein1.jpg);
 background-size:22vw;
 }
 #Prag{
-  background-image: url(./image/prag1.jpeg);
+  background-image: url(./image/prag1.jpg);
   background-size: 36vw;
 }
 #Wachau{
-  background-image: url(./image/wachau1.jpeg);
+  background-image: url(./image/wachau1.jpg);
   background-size: 36vw;
 }
 #Lyon{
-  background-image: url(./image/lyon1.jpeg);
+  background-image: url(./image/lyon1.jpg);
     background-size: 36vw;
 }
 #Madrid{
-  background-image: url(./image/madrid1.jpeg);
+  background-image: url(./image/madrid1.jpg);
   background-size: 36vw;
 }
 #LosAngeles{
@@ -46,7 +46,7 @@ background-size:22vw;
   background-size: 32vw;
 }
 #Barcelona{
-  background-image: url(./image/barcelona1.jpeg);
+  background-image: url(./image/barcelona1.jpg);
   background-size: 28vw;
 }
 #London{
@@ -58,7 +58,7 @@ background-size:22vw;
     background-size:44vw;
 }
 #Pacific-coast{
-  background-image: url(./image/pacific1.jpeg);
+  background-image: url(./image/pacificcoast1.jpg);
     background-size:34vw;
 }
 #Warnemuende{
@@ -66,15 +66,26 @@ background-size:22vw;
   background-size:34vw;
 }
 #SanFrancisco{
-  background-image: url(./image/sanfrancisco1.jpeg);
+  background-image: url(./image/sanfrancisco1.jpg);
   background-size: 36vw;
 }
 #NewYork{
-background-image: url(./image/nyc1.jpeg);
+background-image: url(./image/newyorkcity1.jpg);
   background-size: 36vw;
 }
 #Schwerin{
 background-image: url(./image/schwerin1.jpg);
+  background-size: 44vw;
+}
+#Lissabon{
+background-image: url(./image/lissabon1.jpg);
+  background-size: 44vw;
+}#Chiemsee{
+background-image: url(./image/chiemsee1.jpg);
+  background-size: 44vw;
+}
+}#Athen{
+background-image: url(./image/Athen1.jpg);
   background-size: 44vw;
 }
 
