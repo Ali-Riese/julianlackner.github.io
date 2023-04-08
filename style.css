@@ -21,6 +21,11 @@ a{
 
 }
 
+.fächerFlex2{
+  display: flex;
+  justify-content: center;
+}
+
 #Gastein{
   background-image: url(./image/gastein1.jpg);
 background-size:22vw;
@@ -58,7 +63,11 @@ background-size:22vw;
     background-size:44vw;
 }
 #Pacific-coast{
+<<<<<<< HEAD
   background-image: url(./image/pacificcoast1.jpg);
+=======
+  background-image: url(./image/pacific1.jpg);
+>>>>>>> 170df5d7ce8276f6523c85d4d38638e38cb95d08
     background-size:34vw;
 }
 #Warnemuende{
@@ -70,7 +79,11 @@ background-size:22vw;
   background-size: 36vw;
 }
 #NewYork{
+<<<<<<< HEAD
 background-image: url(./image/newyorkcity1.jpg);
+=======
+background-image: url(./image/nyc1.jpg);
+>>>>>>> 170df5d7ce8276f6523c85d4d38638e38cb95d08
   background-size: 36vw;
 }
 #Schwerin{
